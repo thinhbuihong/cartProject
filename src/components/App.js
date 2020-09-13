@@ -5,6 +5,7 @@ import Message from './Message';
 import Footer from './Footer';
 import ProductContainer from '../containers/ProductContainer';
 import CartContainer from '../containers/CartContainer';
+import MessageContainer from '../containers/MessageContainer';
 
 export default class App extends Component {
   render() {
@@ -15,7 +16,7 @@ export default class App extends Component {
           <div className="container">
             {/* <Products></Products> */}
             <ProductContainer></ProductContainer>
-            <Message></Message>
+            <MessageContainer></MessageContainer>
             <CartContainer></CartContainer>
           </div>
         </main>
